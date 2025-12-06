@@ -1,0 +1,14 @@
+/* Importa as "ferramentas" do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define estilos base para o site */
+@layer base {
+  body {
+    @apply font-sans text-brand-text antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-brand-secondary;
+  }
+}
